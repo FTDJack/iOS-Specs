@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.swift_versions = ['5.0']
 
     s.platform = :ios, "12.0"
-    s.source        = {:git => "https://github.com/FTDJack/JPBaseView.git", :tag => s.version.to_s}
+    s.source        = {:git => "git@github.com:FTDJack/JPBaseView.git", :tag => s.version.to_s}
     s.source_files = ["JPBaseView/**/*.swift"]
     s.resources = ['*.xcasset']
     s.requires_arc    = true
