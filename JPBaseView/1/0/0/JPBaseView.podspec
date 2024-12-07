@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.swift_versions = ['5.0']
 
     s.ios.deployment_target = "12.0"
-    s.source        = {:git => "https://github.com/FTDJack/JPPainting.git", :tag => s.version}
+    s.source        = {:git => "git@github.com:FTDJack/JPBaseView.git", :tag => s.version}
     s.source_files = ["JPBaseView/**/*.swift"]
     s.resource_bundles = {"JPBaseView/Resource/*.*"}
     s.requires_arc    = true
